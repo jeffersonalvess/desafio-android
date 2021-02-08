@@ -43,6 +43,10 @@ android {
 }
 
 dependencies {
+    implementation(project(":database"))
+    implementation(project(":network"))
+    implementation(project(":repository"))
+
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Deps.kotlin)
 

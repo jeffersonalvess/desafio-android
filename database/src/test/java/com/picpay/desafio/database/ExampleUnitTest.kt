@@ -1,4 +1,4 @@
-package com.picpay.desafio.rest
+package com.desafio.database
 
 import org.junit.Test
 

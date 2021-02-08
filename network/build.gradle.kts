@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     kotlin("android")
+    kotlin("android.extensions")
 }
 
 android {
@@ -44,10 +45,11 @@ dependencies {
     implementation(Deps.okhttp.core)
     implementation(Deps.okhttp.mockBrowser)
 
-    implementation(Deps.picasso.core)
-
     implementation(Deps.retrofit.core)
     implementation(Deps.retrofit.gson)
+
+    implementation(Deps.koin.core)
+    implementation(Deps.koin.android)
 
     testImplementation(Deps.test.junit)
     androidTestImplementation(Deps.test.espresso)

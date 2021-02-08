@@ -36,6 +36,9 @@ object Versions {
     const val picasso = "2.71828"
     const val retrofit = "2.7.1"
 
+    // Room
+    const val room = "2.2.6"
+
     // Testing
     const val core_ktx_test = "1.3.0"
     const val core_testing = "2.1.0"
@@ -57,6 +60,7 @@ object Deps {
     val okhttp = OkHttpDeps
     val picasso = PicassoDeps
     val retrofit = RetrofitDeps
+    val room = RoomDeps
     val test = TestDeps
 }
 
@@ -100,6 +104,12 @@ object PicassoDeps {
     const val core = "com.squareup.picasso:picasso:${Versions.picasso}"
 }
 
+object RoomDeps {
+    const val runtime = "androidx.room:room-runtime:${Versions.room}"
+    const val compiler = "androidx.room:room-compiler:${Versions.room}"
+    const val ktx = "androidx.room:room-ktx:${Versions.room}"
+}
+
 object TestDeps {
     const val androidx = "androidx.arch.core:core-testing:${Versions.core_testing}"
     const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutines}"
@@ -109,6 +119,7 @@ object TestDeps {
     const val ktx = "androidx.test:core-ktx:${Versions.core_ktx_test}"
     const val mockitoCore = "org.mockito:mockito-core:${Versions.mockito}"
     const val mockitoKotlin = "com.nhaarman.mockitokotlin2:mockito-kotlin:${Versions.mockito_kotlin}"
+    const val room = "androidx.room:room-testing:${Versions.room}"
     const val runner = "androidx.test:runner:${Versions.test_runner}"
 }
 

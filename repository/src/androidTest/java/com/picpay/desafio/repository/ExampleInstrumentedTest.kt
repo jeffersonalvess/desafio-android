@@ -1,4 +1,4 @@
-package com.picpay.desafio.rest
+package com.picpay.desafio.repository
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.picpay.desafio.rest.test", appContext.packageName)
+        assertEquals("com.picpay.desafio.repository.test", appContext.packageName)
     }
 }
