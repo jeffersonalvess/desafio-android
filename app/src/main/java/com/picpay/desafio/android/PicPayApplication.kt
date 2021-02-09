@@ -1,6 +1,7 @@
 package com.picpay.desafio.android
 
 import android.app.Application
+import com.picpay.desafio.android.di.appModule
 import com.picpay.desafio.database.di.databaseModule
 import com.picpay.desafio.network.di.networkModule
 import com.picpay.desafio.repository.di.repositoryModule
@@ -16,7 +17,8 @@ class PicPayApplication : Application() {
             printLogger()
             androidContext(this@PicPayApplication)
             modules(
-                databaseModule +
+                appModule +
+                        databaseModule +
                         networkModule +
                         repositoryModule
             )
