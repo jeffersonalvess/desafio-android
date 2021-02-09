@@ -3,8 +3,6 @@ package com.picpay.desafio.android.ui
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.Observer
 import com.picpay.desafio.android.R
 import com.picpay.desafio.android.adapter.UserListAdapter
 import com.picpay.desafio.android.databinding.ActivityMainBinding
