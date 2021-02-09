@@ -11,7 +11,6 @@ buildscript {
 
         classpath(Deps.gradle.buildGradle)
         classpath(Deps.gradle.kotlinGradle)
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.21")
     }
 }
 

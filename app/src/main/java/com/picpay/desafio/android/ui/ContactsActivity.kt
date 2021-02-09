@@ -10,13 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.picpay.desafio.android.R
 import com.picpay.desafio.android.adapters.UserListAdapter
-import com.picpay.desafio.android.old.User
 import com.picpay.desafio.android.viewmodel.ContactsViewModel
 import com.picpay.desafio.android.viewmodel.DataLoadingState
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class ContactsActivity : AppCompatActivity() {
 
