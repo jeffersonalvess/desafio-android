@@ -67,7 +67,7 @@ object Deps {
 object AndroidDeps {
     const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
     const val circleImageView = "de.hdodenhof:circleimageview:${Versions.circleimageview}"
-    const val constraintLayout =  "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
     const val ktx = "androidx.core:core-ktx:${Versions.core_ktx}"
     const val material = "com.google.android.material:material:${Versions.material}"
