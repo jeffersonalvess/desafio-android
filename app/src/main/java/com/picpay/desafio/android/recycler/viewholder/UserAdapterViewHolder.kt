@@ -1,4 +1,4 @@
-package com.picpay.desafio.android.adapter
+package com.picpay.desafio.android.recycler.viewholder
 
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView

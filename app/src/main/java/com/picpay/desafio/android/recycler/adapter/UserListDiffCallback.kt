@@ -1,4 +1,4 @@
-package com.picpay.desafio.android.adapter
+package com.picpay.desafio.android.recycler.adapter
 
 import androidx.recyclerview.widget.DiffUtil
 import com.picpay.desafio.database.entities.User

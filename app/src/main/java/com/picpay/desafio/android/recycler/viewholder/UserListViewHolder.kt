@@ -1,4 +1,4 @@
-package com.picpay.desafio.android.adapter
+package com.picpay.desafio.android.recycler.viewholder
 
 import com.picpay.desafio.android.databinding.ListItemUserBinding
 import com.picpay.desafio.database.entities.User

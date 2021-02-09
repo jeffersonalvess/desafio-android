@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.picpay.desafio.android.R
-import com.picpay.desafio.android.adapter.UserListAdapter
+import com.picpay.desafio.android.recycler.adapter.UserListAdapter
 import com.picpay.desafio.android.databinding.ActivityMainBinding
 import com.picpay.desafio.android.viewmodel.ContactsViewModel
 import com.picpay.desafio.android.viewmodel.DataLoadingState.Status.FAILED
