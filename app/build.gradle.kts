@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     kotlin("android")
     kotlin("android.extensions")
+    kotlin("kapt")
 }
 
 android {
@@ -30,6 +31,10 @@ android {
                     "proguard-rules.pro"
             )
         }
+    }
+
+    buildFeatures {
+        dataBinding = true
     }
 
     compileOptions {

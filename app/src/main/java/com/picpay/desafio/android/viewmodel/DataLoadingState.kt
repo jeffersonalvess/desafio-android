@@ -1,9 +1,6 @@
 package com.picpay.desafio.android.viewmodel
 
-data class DataLoadingState private constructor(
-    val status: Status,
-    val msg: String = ""
-) {
+data class DataLoadingState private constructor(val status: Status) {
     enum class Status {
         RUNNING,
         SUCCESS,
@@ -13,6 +10,6 @@ data class DataLoadingState private constructor(
     companion object {
         val LOADED = DataLoadingState(Status.SUCCESS)
         val LOADING = DataLoadingState(Status.RUNNING)
-        fun error(msg: String) = DataLoadingState(Status.FAILED, msg)
+        val FAILED = DataLoadingState(Status.FAILED)
     }
 }

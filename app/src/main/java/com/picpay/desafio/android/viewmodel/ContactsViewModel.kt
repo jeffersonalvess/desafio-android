@@ -33,7 +33,7 @@ class ContactsViewModel(
                 repository.refresh()
                 _dataLoadingState.value = DataLoadingState.LOADED
             } catch (e: Exception) {
-                _dataLoadingState.value = DataLoadingState.error(e.message ?: "")
+                _dataLoadingState.value = DataLoadingState.FAILED
             }
         }
     }
